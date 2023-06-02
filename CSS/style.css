@@ -203,13 +203,14 @@ header .navigation .links ul li:not(:last-child) a {
   background-color: var(--section-color);
 }
 .features .container {
+  width: 100%;
   display: flex;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   background-color: var(--section-color);
   padding-top: 60px;
   padding-bottom: 60px;
-  max-width: 100%;
 }
 
 .features .container .feat {
